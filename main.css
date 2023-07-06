@@ -1,0 +1,114 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Roboto:wght@100&display=swap');
+
+body {
+    background-color: saddlebrown;
+    background-image: url(image3.jpg);
+    background-size: 20% 10%;
+    font-family: 'Happy Monkey', cursive;
+    border: green 5px solid;
+}
+
+h1 {
+    color: chocolate;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#tables-img {
+    display: flex;
+    justify-content: right;
+}
+
+#coffee-shop-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cups-of-coffee-img {
+    display: flex;
+}
+
+.para-main {
+    margin: 50px;
+    font-size: larger;
+    text-align: center;
+}
+
+/* .child-box {
+    display: flex;
+    border: aliceblue 5px solid;
+}
+
+.parent-container {
+    display: flex;
+    flex-direction: column;
+    border: red 5px solid;
+} */
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    background-color: skyblue;
+    color: darkblue;
+    border: blueviolet 2px solid;
+    border-radius: 10px;
+    width: 100px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#away-coffee-img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#good-day-img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.images {
+    border-radius: 10%;
+}
+
+.last-para {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+footer {
+    margin: 5px;
+    border: 2px solid red;
+    background: pink;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#pastry-img1 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.round-images {
+    border-radius: 50%;
+}
